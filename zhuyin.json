@@ -1,0 +1,194 @@
+{
+    "consonants": [
+      {
+        "question": "b",
+        "options": ["ㄆ", "ㄇ", "ㄈ", "ㄅ"],
+        "answer": 4
+      },
+      {
+        "question": "p",
+        "options": ["ㄅ", "ㄇ", "ㄆ", "ㄈ"],
+        "answer": 3
+      },
+      {
+        "question": "m",
+        "options": ["ㄇ", "ㄅ", "ㄉ", "ㄊ"],
+        "answer": 1
+      },
+      {
+        "question": "f",
+        "options": ["ㄅ", "ㄈ", "ㄌ", "ㄋ"],
+        "answer": 2
+      },
+      {
+        "question": "d",
+        "options": ["ㄉ", "ㄍ", "ㄊ", "ㄎ"],
+        "answer": 1
+      },
+      {
+        "question": "t",
+        "options": ["ㄉ", "ㄍ", "ㄎ", "ㄊ"],
+        "answer": 4
+      },
+      {
+        "question": "n",
+        "options": ["ㄌ", "ㄋ", "ㄍ", "ㄏ"],
+        "answer": 2
+      },
+      {
+        "question": "l",
+        "options": ["ㄎ", "ㄌ", "ㄇ", "ㄅ"],
+        "answer": 2
+      },
+      {
+        "question": "g",
+        "options": ["ㄉ", "ㄍ", "ㄎ", "ㄏ"],
+        "answer": 2
+      },
+      {
+        "question": "k",
+        "options": ["ㄏ", "ㄌ", "ㄎ", "ㄐ"],
+        "answer": 3
+      },
+      {
+        "question": "h",
+        "options": ["ㄍ", "ㄏ", "ㄐ", "ㄓ"],
+        "answer": 2
+      },
+      {
+        "question": "j",
+        "options": ["ㄏ", "ㄎ", "ㄑ", "ㄐ"],
+        "answer": 4
+      },
+      {
+        "question": "q",
+        "options": ["ㄑ", "ㄒ", "ㄏ", "ㄌ"],
+        "answer": 1
+      },
+      {
+        "question": "x",
+        "options": ["ㄐ", "ㄑ", "ㄒ", "ㄓ"],
+        "answer": 3
+      },
+      {
+        "question": "zh",
+        "options": ["ㄒ", "ㄓ", "ㄔ", "ㄐ"],
+        "answer": 2
+      },
+      {
+        "question": "ch",
+        "options": ["ㄔ", "ㄒ", "ㄓ", "ㄐ"],
+        "answer": 1
+      },
+      {
+        "question": "sh",
+        "options": ["ㄒ", "ㄕ", "ㄔ", "ㄖ"],
+        "answer": 2
+      },
+      {
+        "question": "r",
+        "options": ["ㄓ", "ㄔ", "ㄖ", "ㄘ"],
+        "answer": 3
+      },
+      {
+        "question": "z",
+        "options": ["ㄗ", "ㄘ", "ㄙ", "ㄔ"],
+        "answer": 1
+      },
+      {
+        "question": "c",
+        "options": ["ㄘ", "ㄓ", "ㄕ", "ㄙ"],
+        "answer": 1
+      },
+      {
+        "question": "s",
+        "options": ["ㄓ", "ㄔ", "ㄗ", "ㄙ"],
+        "answer": 4
+      }
+    ],
+    "vowels": [
+      {
+        "question": "a",
+        "options": ["ㄛ", "ㄚ", "ㄜ", "ㄞ"],
+        "answer": 2
+      },
+      {
+        "question": "o",
+        "options": ["ㄚ", "ㄛ", "ㄞ", "ㄟ"],
+        "answer": 2
+      },
+      {
+        "question": "e",
+        "options": ["ㄜ", "ㄛ", "ㄚ", "ㄝ"],
+        "answer": 1
+      },
+      {
+        "question": "ê (as in eh)",
+        "options": ["ㄧ", "ㄜ", "ㄞ", "ㄝ"],
+        "answer": 4
+      },
+      {
+        "question": "ai",
+        "options": ["ㄞ", "ㄛ", "ㄟ", "ㄚ"],
+        "answer": 1
+      },
+      {
+        "question": "ei",
+        "options": ["ㄟ", "ㄞ", "ㄢ", "ㄛ"],
+        "answer": 1
+      },
+      {
+        "question": "au or ao",
+        "options": ["ㄡ", "ㄠ", "ㄥ", "ㄤ"],
+        "answer": 2
+      },
+      {
+        "question": "ou",
+        "options": ["ㄠ", "ㄥ", "ㄡ", "ㄞ"],
+        "answer": 3
+      },
+      {
+        "question": "an",
+        "options": ["ㄢ", "ㄞ", "ㄤ", "ㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "en",
+        "options": ["ㄥ", "ㄞ", "ㄣ", "ㄤ"],
+        "answer": 3
+      },
+      {
+        "question": "ang",
+        "options": ["ㄤ", "ㄢ", "ㄣ", "ㄛ"],
+        "answer": 1
+      },
+      {
+        "question": "eng",
+        "options": ["ㄚ", "ㄞ", "ㄥ", "ㄣ"],
+        "answer": 3
+      },
+      {
+        "question": "er",
+        "options": ["ㄣ", "ㄦ", "ㄤ", "ㄜ"],
+        "answer": 2
+      },
+      {
+        "question": "i",
+        "options": ["ㄧ", "ㄨ", "ㄛ", "ㄩ"],
+        "answer": 1
+      },
+      {
+        "question": "u",
+        "options": ["ㄚ", "ㄧ", "ㄨ", "ㄣ"],
+        "answer": 3
+      },
+      {
+        "question": "ü (as in yu)",
+        "options": ["ㄧ", "ㄨ", "ㄦ", "ㄩ"],
+        "answer": 4
+      }
+    ]
+  }
+
+  
+  
