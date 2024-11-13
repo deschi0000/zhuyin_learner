@@ -80,6 +80,7 @@ def load_zhuyin_json_list(zhuyin_type):
 
     consonant_list = []
     vowel_list = []
+    combination_list = []
     all_list = []
     file_path = os.path.join(os.getcwd(), 'zhuyin.json')
     
@@ -92,8 +93,11 @@ def load_zhuyin_json_list(zhuyin_type):
             # Get the vowels
             vowel_list = data["vowels"]
 
+            # Get the combinations
+            combination_list = data["combinations"]
+
             #Get everything
-            all_list = consonant_list + vowel_list
+            all_list = consonant_list + vowel_list + combination_list
 
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")
@@ -104,7 +108,9 @@ def load_zhuyin_json_list(zhuyin_type):
         return consonant_list
     elif zhuyin_type is ZhuyinType.VOWEL:
         return vowel_list
-    elif zhuyin_type :
+    elif zhuyin_type is ZhuyinType.COMBINATIONS:
+        return combination_list
+    elif zhuyin_type is ZhuyinType.ALL:
         return all_list
     else:
         return all_list
@@ -120,13 +126,17 @@ def load_intro():
 
     while True:
         try:
-            choice = input("[v]owels, [c]onsonants, [a]ll or [q]uit: ")
-            if choice.strip().lower() not in ("v","c","e","q"):
+            choice = input("[v]owels, [c]onsonants, c[x]mbinations, [a]ll or [q]uit: ")
+            print(choice)
+            if choice.strip().lower() not in ("v","c","x","a","q"):
                 print("Please choose one of the options")
             else:
                 choice.lower()
                 if choice is "v":
                     return ZhuyinType.VOWEL
+                elif choice is "x":
+                    print("trying")
+                    return ZhuyinType.COMBINATIONS
                 elif choice is "c":
                     return ZhuyinType.CONSONANT
                 elif choice is "a":
@@ -166,7 +176,7 @@ def run_game():
 
     # Print the results:
     final_percentage = game_score.correct / game_score.total * 100
-    print(f"\nFinal Outcome: {final_percentage:.1f}%")
+    print(f"\nFinal Outcome: {game_score.correct}/{game_score.total} | {final_percentage:.1f}%")
 
     print("Would you like to practice again?")
 
