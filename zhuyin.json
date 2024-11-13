@@ -106,7 +106,7 @@
         "answer": 4
       }
     ],
-    "vowels": [
+      "vowels": [
       {
         "question": "a",
         "options": ["ㄛ", "ㄚ", "ㄜ", "ㄞ"],
@@ -186,6 +186,178 @@
         "question": "ü (as in yu)",
         "options": ["ㄧ", "ㄨ", "ㄦ", "ㄩ"],
         "answer": 4
+      }
+    ],
+      "combinations": [
+      {
+        "question": "ju",
+        "options": ["ㄐㄩ", "ㄑㄩ", "ㄒㄩ", "ㄓㄩ"],
+        "answer": 1
+      },
+      {
+        "question": "qu",
+        "options": ["ㄐㄩ", "ㄑㄩ", "ㄒㄩ", "ㄓㄩ"],
+        "answer": 2
+      },
+      {
+        "question": "xu",
+        "options": ["ㄐㄩ", "ㄑㄩ", "ㄒㄩ", "ㄓㄩ"],
+        "answer": 3
+      },
+      {
+        "question": "zhi",
+        "options": ["ㄓㄧ", "ㄓ", "ㄓㄡ", "ㄓㄤ"],
+        "answer": 2
+      },
+      {
+        "question": "chi",
+        "options": ["ㄔㄧ", "ㄔ", "ㄔㄤ", "ㄔㄨ"],
+        "answer": 2
+      },
+      {
+        "question": "shi",
+        "options": ["ㄕ", "ㄕㄤ", "ㄕㄨ", "ㄕㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "ri",
+        "options": ["ㄖㄧ", "ㄖ", "ㄖㄜ", "ㄖㄨ"],
+        "answer": 2
+      },
+      {
+        "question": "zi",
+        "options": ["ㄗ", "ㄗㄧ", "ㄗㄤ", "ㄗㄜ"],
+        "answer": 1
+      },
+      {
+        "question": "ci",
+        "options": ["ㄘㄧ", "ㄘ", "ㄘㄥ", "ㄘㄜ"],
+        "answer": 2
+      },
+      {
+        "question": "si",
+        "options": ["ㄙ", "ㄙㄧ", "ㄙㄤ", "ㄙㄜ"],
+        "answer": 1
+      },
+      {
+        "question": "bai",
+        "options": ["ㄅㄞ", "ㄅㄠ", "ㄅㄟ", "ㄅㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "bei",
+        "options": ["ㄅㄞ", "ㄅㄛ", "ㄅㄟ", "ㄅㄤ"],
+        "answer": 3
+      },
+      {
+        "question": "pai",
+        "options": ["ㄆㄞ", "ㄆㄡ", "ㄆㄥ", "ㄆㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "mei",
+        "options": ["ㄇㄟ", "ㄇㄠ", "ㄇㄥ", "ㄇㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "fei",
+        "options": ["ㄈㄟ", "ㄈㄠ", "ㄈㄡ", "ㄈㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "tian",
+        "options": ["ㄊㄠ", "ㄊㄧㄢ", "ㄊㄤ", "ㄊㄥ"],
+        "answer": 2
+      },
+      {
+        "question": "nü",
+        "options": ["ㄋㄠ", "ㄋㄩ", "ㄋㄧ", "ㄋㄜ"],
+        "answer": 2
+      },
+      {
+        "question": "lu",
+        "options": ["ㄌㄨ", "ㄌㄥ", "ㄌㄚ", "ㄌㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "hua",
+        "options": ["ㄏㄨㄚ", "ㄏㄨㄛ", "ㄏㄡ", "ㄏㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "shuang",
+        "options": ["ㄕㄨ", "ㄕㄨㄤ", "ㄕㄥ", "ㄕㄤ"],
+        "answer": 2
+      },
+      {
+        "question": "chang",
+        "options": ["ㄔㄠ", "ㄔㄤ", "ㄔㄥ", "ㄔㄧ"],
+        "answer": 2
+      },
+      {
+        "question": "jiao",
+        "options": ["ㄐㄧㄠ", "ㄐㄩ", "ㄐㄧ", "ㄐㄚ"],
+        "answer": 1
+      },
+      {
+        "question": "qiu",
+        "options": ["ㄑㄧㄢ", "ㄑㄧㄠ", "ㄑㄧㄤ", "ㄑㄧㄡ"],
+        "answer": 4
+      },
+      {
+        "question": "xue",
+        "options": ["ㄒㄩㄝ", "ㄒㄩㄢ", "ㄒㄧㄢ", "ㄒㄩ"],
+        "answer": 1
+      },
+      {
+        "question": "dao",
+        "options": ["ㄉㄠ", "ㄉㄥ", "ㄉㄢ", "ㄉㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "liao",
+        "options": ["ㄌㄧㄠ", "ㄌㄧㄤ", "ㄌㄧㄡ", "ㄌㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "gao",
+        "options": ["ㄍㄠ", "ㄍㄢ", "ㄍㄥ", "ㄍㄡ"],
+        "answer": 1
+      },
+      {
+        "question": "wan",
+        "options": ["ㄨㄢ", "ㄨㄥ", "ㄨㄛ", "ㄨㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "fan",
+        "options": ["ㄈㄢ", "ㄈㄣ", "ㄈㄥ", "ㄈㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "kan",
+        "options": ["ㄎㄤ", "ㄎㄥ", "ㄎㄠ", "ㄎㄢ"],
+        "answer": 4
+      },
+      {
+        "question": "ren",
+        "options": ["ㄖㄣ", "ㄖㄤ", "ㄖㄡ", "ㄖㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "tang",
+        "options": ["ㄊㄥ", "ㄊㄤ", "ㄊㄢ", "ㄊㄠ"],
+        "answer": 2
+      },
+      {
+        "question": "yang",
+        "options": ["ㄧㄢ", "ㄧㄤ", "ㄧㄣ", "ㄧㄥ"],
+        "answer": 2
+      },
+      {
+        "question": "zhou",
+        "options": ["ㄓㄤ", "ㄓㄠ", "ㄓㄡ", "ㄓㄨ"],
+        "answer": 3
       }
     ]
   }
