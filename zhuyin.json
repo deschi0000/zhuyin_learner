@@ -359,6 +359,259 @@
         "options": ["ㄓㄤ", "ㄓㄠ", "ㄓㄡ", "ㄓㄨ"],
         "answer": 3
       }
+    ],
+        "hanzi": [
+      {
+        "question": "nǐ (你)",
+        "options": ["ㄋㄧ", "ㄋㄧㄢ", "ㄋㄥ", "ㄋㄠ"],
+        "answer": 1
+      },
+      {
+        "question": "hǎo (好)",
+        "options": ["ㄏㄠ", "ㄏㄢ", "ㄏㄥ", "ㄏㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "wǒ (我)",
+        "options": ["ㄨㄛ", "ㄨㄞ", "ㄨㄤ", "ㄨㄟ"],
+        "answer": 1
+      },
+      {
+        "question": "zài (在)",
+        "options": ["ㄗㄚ", "ㄗㄞ", "ㄗㄠ", "ㄗㄜ"],
+        "answer": 2
+      },
+      {
+        "question": "shì (是)",
+        "options": ["ㄕ", "ㄕㄜ", "ㄕㄤ", "ㄕㄚ"],
+        "answer": 1
+      },
+      {
+        "question": "yǒu (有)",
+        "options": ["ㄧㄡ", "ㄧㄤ", "ㄧㄢ", "ㄧㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "de (的)",
+        "options": ["ㄉㄜ", "ㄉㄞ", "ㄉㄥ", "ㄉㄠ"],
+        "answer": 1
+      },
+      {
+        "question": "zhōng (中)",
+        "options": ["ㄓㄨㄥ", "ㄓㄤ", "ㄓㄤ", "ㄓㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "guó (國)",
+        "options": ["ㄍㄨㄛ", "ㄍㄨㄤ", "ㄍㄧㄢ", "ㄍㄨㄣ"],
+        "answer": 1
+      },
+      {
+        "question": "tiān (天)",
+        "options": ["ㄊㄧㄢ", "ㄊㄤ", "ㄋㄧㄥ", "ㄐㄧㄣ"],
+        "answer": 1
+      },
+      {
+        "question": "míng (名)",
+        "options": ["ㄇㄧㄥ", "ㄇㄧ", "ㄇㄢ", "ㄇㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "rén (人)",
+        "options": ["ㄖㄣ", "ㄧㄣ", "ㄅㄢ", "ㄖㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "bù (不)",
+        "options": ["ㄅㄨ", "ㄅㄩ", "ㄅㄧ", "ㄇㄨ"],
+        "answer": 1
+      },
+      {
+        "question": "hěn (很)",
+        "options": ["ㄏㄣ", "ㄏㄟ", "ㄏㄨ", "ㄏㄡ"],
+        "answer": 1
+      },
+      {
+        "question": "xiè (謝)",
+        "options": ["ㄒㄧㄝ", "ㄒㄧㄣ", "ㄏㄣ", "ㄙㄜ"],
+        "answer": 1
+      },
+      {
+        "question": "zǒu (走)",
+        "options": ["ㄗㄡ", "ㄗㄣ", "ㄏㄡ", "ㄗㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "chī (吃)",
+        "options": ["ㄔ", "ㄔㄠ", "ㄕㄧ", "ㄖㄣ"],
+        "answer": 1
+      },
+      {
+        "question": "shuǐ (水)",
+        "options": ["ㄕㄨㄟ", "ㄓㄨㄟ", "ㄖㄨ", "ㄔㄨ"],
+        "answer": 1
+      },
+      {
+        "question": "mā (媽)",
+        "options": ["ㄇㄚ", "ㄇㄠ", "ㄇㄤ", "ㄋㄚ"],
+        "answer": 1
+      },
+      {
+        "question": "dà (大)",
+        "options": ["ㄉㄚ", "ㄊㄚ", "ㄓㄚ", "ㄌㄚ"],
+        "answer": 1
+      },
+      {
+        "question": "xiǎo (小)",
+        "options": ["ㄒㄧㄠ", "ㄒㄧ", "ㄒㄨㄣ", "ㄒㄧㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "jiā (家)",
+        "options": ["ㄐㄧㄚ", "ㄖㄧ", "ㄧㄠ", "ㄓㄠ"],
+        "answer": 1
+      },
+      {
+        "question": "shū (書)",
+        "options": ["ㄕㄨ", "ㄖㄨ", "ㄧㄨ", "ㄏㄨ"],
+        "answer": 1
+      },
+      {
+        "question": "bīng (冰)",
+        "options": ["ㄅㄧㄥ", "ㄅㄧ", "ㄇㄧㄥ", "ㄇㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "yī (一)",
+        "options": ["ㄧ", "ㄨ", "ㄚ", "ㄞ"],
+        "answer": 1
+      },
+      {
+        "question": "èr (二)",
+        "options": ["ㄦ", "ㄣ", "ㄧ", "ㄡ"],
+        "answer": 1
+      },
+      {
+        "question": "sān (三)",
+        "options": ["ㄙㄢ", "ㄙ", "ㄧㄢ", "ㄘㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "liǎng (兩)",
+        "options": ["ㄌㄧㄤ", "ㄌㄧ", "ㄌㄧㄥ", "ㄌㄧㄩ"],
+        "answer": 1
+      },
+      {
+        "question": "qī (七)",
+        "options": ["ㄑㄧ", "ㄐㄧ", "ㄓ", "ㄗ"],
+        "answer": 1
+      },
+      {
+        "question": "shí (十)",
+        "options": ["ㄕ", "ㄔ", "ㄖ", "ㄣ"],
+        "answer": 1
+      },
+      {
+        "question": "yào (要)",
+        "options": ["ㄧㄠ", "ㄧㄡ", "ㄧㄤ", "ㄧㄣ"],
+        "answer": 1
+      },
+      {
+        "question": "kàn (看)",
+        "options": ["ㄎㄢ", "ㄎㄧㄢ", "ㄇㄢ", "ㄏㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "tīng (聽)",
+        "options": ["ㄊㄧㄥ", "ㄏㄧㄥ", "ㄧㄥ", "ㄒㄧㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "zǒu (走)",
+        "options": ["ㄗㄡ", "ㄗㄣ", "ㄏㄡ", "ㄗㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "dōu (都)",
+        "options": ["ㄉㄡ", "ㄊㄡ", "ㄖㄡ", "ㄧㄡ"],
+        "answer": 1
+      },
+      {
+        "question": "rén (人)",
+        "options": ["ㄖㄣ", "ㄧㄣ", "ㄅㄢ", "ㄖㄢ"],
+        "answer": 1
+      },
+      {
+        "question": "gōng (工)",
+        "options": ["ㄍㄨㄥ", "ㄍㄡ", "ㄍㄧ", "ㄏㄨㄥ"],
+        "answer": 1
+      },
+      {
+        "question": "zuò (做)",
+        "options": ["ㄗㄨㄛ", "ㄗㄨㄢ", "ㄘㄨㄛ", "ㄖㄨㄛ"],
+        "answer": 1
+      },
+      {
+        "question": "kāi (開)",
+        "options": ["ㄎㄞ", "ㄍㄞ", "ㄏㄞ", "ㄌㄞ"],
+        "answer": 1
+      },
+      {
+        "question": "xǐ (喜)",
+        "options": ["ㄒㄧ", "ㄧ", "ㄨ", "ㄩ"],
+        "answer": 1
+      },
+      {
+        "question": "chī (吃)",
+        "options": ["ㄔ", "ㄑㄧ", "ㄏㄨ", "ㄘ"],
+        "answer": 1
+      },
+      {
+        "question": "hē (喝)",
+        "options": ["ㄏㄜ", "ㄏㄧ", "ㄒㄧ", "ㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "máng (忙)",
+        "options": ["ㄇㄤ", "ㄇㄠ", "ㄏㄤ", "ㄗㄤ"],
+        "answer": 1
+      },
+      {
+        "question": "dà (大)",
+        "options": ["ㄉㄚ", "ㄉㄧ", "ㄖㄤ", "ㄅㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "xiǎo (小)",
+        "options": ["ㄒㄧㄠ", "ㄗㄠ", "ㄧㄠ", "ㄅㄧ"],
+        "answer": 1
+      },
+      {
+        "question": "zhī (知)",
+        "options": ["ㄓ", "ㄔ", "ㄕ", "ㄖ"],
+        "answer": 1
+      },
+      {
+        "question": "hǎo (好)",
+        "options": ["ㄏㄠ", "ㄏㄜ", "ㄇㄠ", "ㄍㄠ"],
+        "answer": 1
+      },
+      {
+        "question": "bù (不)",
+        "options": ["ㄅㄨ", "ㄇㄨ", "ㄅㄛ", "ㄖㄨ"],
+        "answer": 1
+      },
+      {
+        "question": "chū (出)",
+        "options": ["ㄔㄨ", "ㄘㄨ", "ㄘㄠ", "ㄓㄨ"],
+        "answer": 1
+      },
+      {
+        "question": "mǎi (買)",
+        "options": ["ㄇㄞ", "ㄇㄣ", "ㄇㄧ", "ㄇㄣ"],
+        "answer": 1
+      }
+      
     ]
   }
 

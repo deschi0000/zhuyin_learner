@@ -81,6 +81,7 @@ def load_zhuyin_json_list(zhuyin_type):
     consonant_list = []
     vowel_list = []
     combination_list = []
+    hanzi_list = []
     all_list = []
     file_path = os.path.join(os.getcwd(), 'zhuyin.json')
     
@@ -96,8 +97,11 @@ def load_zhuyin_json_list(zhuyin_type):
             # Get the combinations
             combination_list = data["combinations"]
 
+            # Get the Hanzi (HSK 1)
+            hanzi_list = data["hanzi"]
+
             #Get everything
-            all_list = consonant_list + vowel_list + combination_list
+            all_list = consonant_list + vowel_list + combination_list + hanzi_list
 
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")
@@ -110,6 +114,8 @@ def load_zhuyin_json_list(zhuyin_type):
         return vowel_list
     elif zhuyin_type is ZhuyinType.COMBINATIONS:
         return combination_list
+    elif zhuyin_type is ZhuyinType.HANZI:
+        return hanzi_list
     elif zhuyin_type is ZhuyinType.ALL:
         return all_list
     else:
@@ -126,9 +132,9 @@ def load_intro():
 
     while True:
         try:
-            choice = input("[v]owels, [c]onsonants, c[x]mbinations, [a]ll or [q]uit: ")
+            choice = input("\n [v]owels\n [c]onsonants\nc[x]mbinations\n [h]anzi\n [a]ll\n [q]uit: ")
             print(choice)
-            if choice.strip().lower() not in ("v","c","x","a","q"):
+            if choice.strip().lower() not in ("v","c","x","h","a","q"):
                 print("Please choose one of the options")
             else:
                 choice.lower()
@@ -139,6 +145,8 @@ def load_intro():
                     return ZhuyinType.COMBINATIONS
                 elif choice is "c":
                     return ZhuyinType.CONSONANT
+                elif choice is "h":
+                    return ZhuyinType.HANZI
                 elif choice is "a":
                     return ZhuyinType.ALL
                 elif choice is "q":
