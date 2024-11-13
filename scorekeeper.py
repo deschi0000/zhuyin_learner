@@ -18,5 +18,9 @@ class ScoreKeeper:
     def add_to_correct(self):
         self.correct += 1
 
+    def reset_all(self):
+        self.total = 0
+        self.correct = 0
+
     def __str__(self):
         return f"Total: {self.total} | Correct Answers: {self.correct}"
