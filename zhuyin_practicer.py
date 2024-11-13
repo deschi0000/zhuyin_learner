@@ -46,6 +46,8 @@ def run_questions(question_dict):
     options = question_dict["options"]
     # print(question_dict["options"])
 
+    clear()
+
     # Keep updating the score for each question   
     print(game_score)
 
@@ -109,15 +111,39 @@ def load_zhuyin_json_list(zhuyin_type):
         return all_list
 
 
+def load_intro():
+    print("Welcome to Zhuyin Practicer ㄓˋ ㄧㄣ ㄌㄧㄢˋ ㄒㄧˊ")
+    print("What would you like to Practice?")
+    
+    while True:
+        try:
+            choice = input("[v]owels, [c]onsonants, [a]ll or [q]uit: ")
+            if choice not in ("v","c","e","q"):
+                print("Please choose one of the options")
+            else:
+                choice.lower()
+                if choice is "v":
+                    return ZhuyinType.VOWEL
+                elif choice is "c":
+                    return ZhuyinType.CONSONANT
+                elif choice is "a":
+                    return ZhuyinType.ALL
+                elif choice is "q":
+                    print("Quitting")
+                    sys.exit()
 
-
+        except ValueError:
+            print("Invalid input. Please enter a valid choice.")
 
 def main():
 
+    # Clear the screen for tidiness
     clear()
 
+    practice_choice = load_intro()
+
     # Load the json list that you want with the type
-    list_to_practice = load_zhuyin_json_list(ZhuyinType.VOWEL)
+    list_to_practice = load_zhuyin_json_list(practice_choice)
     
     # Add the list here, or abstract it away later
     game_score.add_to_total(len(list_to_practice))
@@ -133,8 +159,6 @@ def main():
     final_percentage = game_score.correct / game_score.total * 100
     print(f"\nFinal Outcome: {final_percentage:.1f}%")
 
-
-    return
 
 if __name__ == '__main__':
     main()
