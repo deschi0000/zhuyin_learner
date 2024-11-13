@@ -1,14 +1,31 @@
 import json
-import os
+import os, sys
 from scorekeeper import ScoreKeeper
+from zhuyin_type import ZhuyinType
+import random
 
 
 game_score = ScoreKeeper()
 
+# Load to keep the cmd line nice and neat
+clear = lambda: os.system('cls')
+
+
 def get_number():
+    '''Makes sure that a valid number between 1-4 is inputted'''
+    
     while True:
         try: 
-            number = int(input("Enter your choice [1-4]: "))
+            answer = input("Enter your choice [1-4]: ")
+
+            # Give option to quit
+            if answer == "q":
+                print("Quitting")
+                sys.exit()
+           
+
+            number = int(answer)
+
             if 1 <= number <= 4:
                 return number
             else:
@@ -19,8 +36,9 @@ def get_number():
 
 def run_questions(question_dict):
 
-    
-    
+    ''' Runs the questions in the command 
+    line loaded from the json file'''
+
     # Extract the different parts
     question = question_dict["question"]
     # print(question_dict["question"])
@@ -28,6 +46,8 @@ def run_questions(question_dict):
     options = question_dict["options"]
     # print(question_dict["options"])
 
+    # Keep updating the score for each question   
+    print(game_score)
 
     # Ask the question
     print(f"Correct Zhuyin for: {question} ?")
@@ -40,27 +60,28 @@ def run_questions(question_dict):
     answer = question_dict["answer"]
     # print(question_dict["answer"])
 
-    if chosen_number == answer:
+    if chosen_number is answer:
         print("Correct!\n")
         game_score.add_to_correct()
     else:
         print("Incorrect\n")
 
-    print(game_score)
+    # print(game_score)
+    clear()
 
     # print(f"{question} ?")
     # print(f"{options} ?")
     
 
+def load_zhuyin_json_list(zhuyin_type):
 
-
-def main():
+    '''Returns a list of the argument type (from enum)'''
 
     consonant_list = []
     vowel_list = []
-    
+    all_list = []
     file_path = os.path.join(os.getcwd(), 'zhuyin.json')
-
+    
     try:
         with open(file_path, 'r', encoding='utf-8') as file:
             data = json.load(file)
@@ -70,19 +91,41 @@ def main():
             # Get the vowels
             vowel_list = data["vowels"]
 
+            #Get everything
+            all_list = consonant_list + vowel_list
+
     except FileNotFoundError:
         print(f"Error: The file '{file_path}' was not found.")
     except json.JSONDecodeError:
         print("Error: Failed to decode JSON. Please check the JSON format.")
 
-    # If doing the score here:
-    # total_questions_amount = len(consonant_list) + len(vowel_list)
-    # game_score = ScoreKeeper(total_questions_amount)
+    if zhuyin_type is ZhuyinType.CONSONANT:
+        return consonant_list
+    elif zhuyin_type is ZhuyinType.VOWEL:
+        return vowel_list
+    elif zhuyin_type :
+        return all_list
+    else:
+        return all_list
+
+
+
+
+
+def main():
+
+    clear()
+
+    # Load the json list that you want with the type
+    list_to_practice = load_zhuyin_json_list(ZhuyinType.VOWEL)
     
     # Add the list here, or abstract it away later
-    game_score.add_to_total(len(consonant_list))
+    game_score.add_to_total(len(list_to_practice))
 
-    for i in consonant_list:
+    # Lets shuffle the list to keep it fun
+    random.shuffle(list_to_practice)
+
+    for i in list_to_practice:
         # print(i)
         run_questions(i)
 
