@@ -373,8 +373,8 @@
       },
       {
         "question": "wǒ (我)",
-        "options": ["ㄨㄛ", "ㄨㄞ", "ㄨㄤ", "ㄨㄟ"],
-        "answer": 1
+        "options": ["ㄨㄟ", "ㄨㄞ", "ㄨㄛ", "ㄨㄤ"],
+        "answer": 3
       },
       {
         "question": "zài (在)",
@@ -383,27 +383,27 @@
       },
       {
         "question": "shì (是)",
-        "options": ["ㄕ", "ㄕㄜ", "ㄕㄤ", "ㄕㄚ"],
-        "answer": 1
+        "options": ["ㄕㄤ", "ㄕㄚ", "ㄕ", "ㄕㄜ"],
+        "answer": 3
       },
       {
         "question": "yǒu (有)",
-        "options": ["ㄧㄡ", "ㄧㄤ", "ㄧㄢ", "ㄧㄥ"],
-        "answer": 1
+        "options": ["ㄧㄢ", "ㄧㄥ", "ㄧㄡ", "ㄧㄤ"],
+        "answer": 3
       },
       {
         "question": "de (的)",
-        "options": ["ㄉㄜ", "ㄉㄞ", "ㄉㄥ", "ㄉㄠ"],
-        "answer": 1
+        "options": ["ㄉㄞ", "ㄉㄜ", "ㄉㄥ", "ㄉㄠ"],
+        "answer": 2
       },
       {
         "question": "zhōng (中)",
-        "options": ["ㄓㄨㄥ", "ㄓㄤ", "ㄓㄤ", "ㄓㄢ"],
-        "answer": 1
+        "options": ["ㄓㄤ", "ㄓㄤ", "ㄓㄢ", "ㄓㄨㄥ"],
+        "answer": 4
       },
       {
         "question": "guó (國)",
-        "options": ["ㄍㄨㄛ", "ㄍㄨㄤ", "ㄍㄧㄢ", "ㄍㄨㄣ"],
+        "options": ["ㄍㄨㄛ", "ㄍㄧㄢ", "ㄍㄨㄤ", "ㄍㄨㄣ"],
         "answer": 1
       },
       {
@@ -413,18 +413,18 @@
       },
       {
         "question": "míng (名)",
-        "options": ["ㄇㄧㄥ", "ㄇㄧ", "ㄇㄢ", "ㄇㄥ"],
-        "answer": 1
+        "options": ["ㄇㄢ", "ㄇㄧㄥ", "ㄇㄧ", "ㄇㄥ"],
+        "answer": 2
       },
       {
         "question": "rén (人)",
-        "options": ["ㄖㄣ", "ㄧㄣ", "ㄅㄢ", "ㄖㄢ"],
-        "answer": 1
+        "options": ["ㄅㄢ", "ㄧㄣ", "ㄖㄣ", "ㄖㄢ"],
+        "answer": 3
       },
       {
         "question": "bù (不)",
-        "options": ["ㄅㄨ", "ㄅㄩ", "ㄅㄧ", "ㄇㄨ"],
-        "answer": 1
+        "options": ["ㄅㄧ", "ㄇㄨ", "ㄅㄩ", "ㄅㄨ"],
+        "answer": 4
       },
       {
         "question": "hěn (很)",
@@ -433,8 +433,8 @@
       },
       {
         "question": "xiè (謝)",
-        "options": ["ㄒㄧㄝ", "ㄒㄧㄣ", "ㄏㄣ", "ㄙㄜ"],
-        "answer": 1
+        "options": ["ㄙㄜ", "ㄏㄣ", "ㄒㄧㄝ", "ㄒㄧㄣ"],
+        "answer": 3
       },
       {
         "question": "zǒu (走)",
@@ -443,8 +443,8 @@
       },
       {
         "question": "chī (吃)",
-        "options": ["ㄔ", "ㄔㄠ", "ㄕㄧ", "ㄖㄣ"],
-        "answer": 1
+        "options": ["ㄕㄧ", "ㄔ", "ㄔㄠ", "ㄖㄣ"],
+        "answer": 2
       },
       {
         "question": "shuǐ (水)",
@@ -458,8 +458,8 @@
       },
       {
         "question": "dà (大)",
-        "options": ["ㄉㄚ", "ㄊㄚ", "ㄓㄚ", "ㄌㄚ"],
-        "answer": 1
+        "options": ["ㄓㄚ", "ㄉㄚ", "ㄌㄚ", "ㄊㄚ"],
+        "answer": 2
       },
       {
         "question": "xiǎo (小)",
@@ -468,8 +468,8 @@
       },
       {
         "question": "jiā (家)",
-        "options": ["ㄐㄧㄚ", "ㄖㄧ", "ㄧㄠ", "ㄓㄠ"],
-        "answer": 1
+        "options": ["ㄖㄧ", "ㄐㄧㄚ", "ㄧㄠ", "ㄓㄠ"],
+        "answer": 2
       },
       {
         "question": "shū (書)",
@@ -483,8 +483,8 @@
       },
       {
         "question": "yī (一)",
-        "options": ["ㄧ", "ㄨ", "ㄚ", "ㄞ"],
-        "answer": 1
+        "options": ["ㄞ", "ㄧ", "ㄚ", "ㄨ"],
+        "answer": 2
       },
       {
         "question": "èr (二)",
@@ -498,8 +498,8 @@
       },
       {
         "question": "liǎng (兩)",
-        "options": ["ㄌㄧㄤ", "ㄌㄧ", "ㄌㄧㄥ", "ㄌㄧㄩ"],
-        "answer": 1
+        "options": ["ㄌㄧㄩ", "ㄌㄧㄥ", "ㄌㄧ", "ㄌㄧㄤ"],
+        "answer": 4
       },
       {
         "question": "qī (七)",
@@ -513,13 +513,13 @@
       },
       {
         "question": "yào (要)",
-        "options": ["ㄧㄠ", "ㄧㄡ", "ㄧㄤ", "ㄧㄣ"],
-        "answer": 1
+        "options": ["ㄧㄡ", "ㄧㄠ", "ㄧㄤ", "ㄧㄣ"],
+        "answer": 2
       },
       {
         "question": "kàn (看)",
-        "options": ["ㄎㄢ", "ㄎㄧㄢ", "ㄇㄢ", "ㄏㄢ"],
-        "answer": 1
+        "options": ["ㄇㄢ", "ㄏㄢ", "ㄎㄢ", "ㄎㄧㄢ"],
+        "answer": 3
       },
       {
         "question": "tīng (聽)",
@@ -533,8 +533,8 @@
       },
       {
         "question": "dōu (都)",
-        "options": ["ㄉㄡ", "ㄊㄡ", "ㄖㄡ", "ㄧㄡ"],
-        "answer": 1
+        "options": ["ㄊㄡ", "ㄉㄡ", "ㄖㄡ", "ㄧㄡ"],
+        "answer": 2
       },
       {
         "question": "rén (人)",
@@ -553,8 +553,8 @@
       },
       {
         "question": "kāi (開)",
-        "options": ["ㄎㄞ", "ㄍㄞ", "ㄏㄞ", "ㄌㄞ"],
-        "answer": 1
+        "options": ["ㄍㄞ", "ㄏㄞ", "ㄌㄞ","ㄎㄞ"],
+        "answer": 4
       },
       {
         "question": "xǐ (喜)",
@@ -563,8 +563,8 @@
       },
       {
         "question": "chī (吃)",
-        "options": ["ㄔ", "ㄑㄧ", "ㄏㄨ", "ㄘ"],
-        "answer": 1
+        "options": ["ㄑㄧ", "ㄔ", "ㄏㄨ", "ㄘ"],
+        "answer": 2
       },
       {
         "question": "hē (喝)",
@@ -573,13 +573,13 @@
       },
       {
         "question": "máng (忙)",
-        "options": ["ㄇㄤ", "ㄇㄠ", "ㄏㄤ", "ㄗㄤ"],
-        "answer": 1
+        "options": ["ㄏㄤ", "ㄗㄤ", "ㄇㄤ", "ㄇㄠ"],
+        "answer": 3
       },
       {
         "question": "dà (大)",
-        "options": ["ㄉㄚ", "ㄉㄧ", "ㄖㄤ", "ㄅㄧ"],
-        "answer": 1
+        "options": ["ㄖㄤ", "ㄅㄧ", "ㄉㄧ", "ㄉㄚ"],
+        "answer": 4
       },
       {
         "question": "xiǎo (小)",
@@ -593,8 +593,8 @@
       },
       {
         "question": "hǎo (好)",
-        "options": ["ㄏㄠ", "ㄏㄜ", "ㄇㄠ", "ㄍㄠ"],
-        "answer": 1
+        "options": ["ㄇㄠ", "ㄏㄠ", "ㄏㄜ", "ㄍㄠ"],
+        "answer": 2
       },
       {
         "question": "bù (不)",
@@ -603,15 +603,14 @@
       },
       {
         "question": "chū (出)",
-        "options": ["ㄔㄨ", "ㄘㄨ", "ㄘㄠ", "ㄓㄨ"],
-        "answer": 1
+        "options": ["ㄘㄨ", "ㄓㄨ", "ㄔㄨ", "ㄘㄠ"],
+        "answer": 3
       },
       {
         "question": "mǎi (買)",
-        "options": ["ㄇㄞ", "ㄇㄣ", "ㄇㄧ", "ㄇㄣ"],
-        "answer": 1
+        "options": ["ㄇㄧ", "ㄇㄣ", "ㄇㄞ", "ㄇㄣ"],
+        "answer": 3
       }
-      
     ]
   }
 
