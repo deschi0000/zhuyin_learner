@@ -22,8 +22,7 @@ def get_number():
             if answer == "q":
                 print("Quitting")
                 sys.exit()
-           
-
+        
             number = int(answer)
 
             if 1 <= number <= 4:
@@ -112,13 +111,17 @@ def load_zhuyin_json_list(zhuyin_type):
 
 
 def load_intro():
+
+    '''Loads the game'''
+
     print("Welcome to Zhuyin Practicer ㄓˋ ㄧㄣ ㄌㄧㄢˋ ㄒㄧˊ")
     print("What would you like to Practice?")
     
+
     while True:
         try:
             choice = input("[v]owels, [c]onsonants, [a]ll or [q]uit: ")
-            if choice not in ("v","c","e","q"):
+            if choice.strip().lower() not in ("v","c","e","q"):
                 print("Please choose one of the options")
             else:
                 choice.lower()
@@ -135,10 +138,16 @@ def load_intro():
         except ValueError:
             print("Invalid input. Please enter a valid choice.")
 
-def main():
+
+def run_game():
+
+    ''' Runs the game'''
 
     # Clear the screen for tidiness
     clear()
+    
+    # # Reset any previous game information
+    game_score.reset_all()
 
     practice_choice = load_intro()
 
@@ -158,6 +167,38 @@ def main():
     # Print the results:
     final_percentage = game_score.correct / game_score.total * 100
     print(f"\nFinal Outcome: {final_percentage:.1f}%")
+
+    print("Would you like to practice again?")
+
+
+    if get_yes_or_no():
+        return run_game()
+    else:
+        print("Thank you for practicing")
+        return False
+
+
+def get_yes_or_no():
+
+    ''' Parse yes or no answer from prompt '''
+
+    while True:
+        answer = input("[y]es / [n]o : ").strip().lower()
+        if  answer in ("y", "yes"):
+            return True
+        elif answer in ("n", "no"):
+            print("Quitting")
+            sys.exit()
+            # return False
+        else:
+            print("Please enter 'y' or 'n'")
+
+
+
+
+def main():
+    while True:
+        run_game()
 
 
 if __name__ == '__main__':
