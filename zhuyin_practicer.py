@@ -65,7 +65,9 @@ def run_questions(question_dict):
         print("Correct!\n")
         game_score.add_to_correct()
     else:
-        print("Incorrect\n")
+        print("\nIncorrect.")
+        print(f"{question} is {options[answer-1]}")
+        input("Press Enter to continue")
 
     # print(game_score)
     clear()
